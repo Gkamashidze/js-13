@@ -1,15 +1,24 @@
+var ricxvi = 1;
+var ricxvi2 = 1;
 
-var index = 1;
-// var teqsti = document.getElementById("text");
-while (index <= 50) {
+let num = "";
+let numb = "";
 
-    document.getElementById("text").innerHTML = index;
-    // document.write(index + " ");
-    index++;
+while (ricxvi <= 50) {
+    if (ricxvi % 2 == 1) {
+        numb += ricxvi + " ";
+        document.getElementById("red").innerHTML = numb;
+        document.getElementById("red").style.color = "red";
 
+    }
+    ricxvi++;
+}
 
-
-    // if (index % 2 == 0) {
-    //     document.getElementById("text").style.color = "red";
-    // }
+while (ricxvi2 <= 50) {
+    if (ricxvi2 % 2 == 0) {
+        num += ricxvi2 + " ";
+        document.getElementById("green").innerHTML = num;
+        document.getElementById("green").style.color = "green";
+    }
+    ricxvi2++;
 }
