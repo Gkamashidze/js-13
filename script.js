@@ -1,7 +1,6 @@
 
 var index = 1;
-// var x = document.getElementById("text").value;
-
+// var teqsti = document.getElementById("text");
 while (index <= 50) {
 
     document.getElementById("text").innerHTML = index;
